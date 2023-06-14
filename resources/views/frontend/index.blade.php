@@ -27,7 +27,7 @@
                     <div class="col col-md-12 col-lg-8 col-xl-6 p-80px-tb">
                         <div class="home-text-center theme-after m-50px-t">
                             <h4>Hello, my name is</h4>
-                            <h5 class="font-alt">James Thompson</h5>
+                            <h5 class="font-alt">Rahul Soni</h5>
                             <p>I'm the pixel crafter based in Canada. I make the visual to be more interactive.</p>
                             <div class="btn-bar">
                                 <a href="#" class="m-btn-link m-btn-link-white theme-after">Download CV</a>
@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- col -->
+                       
 
                         <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                             <div class="counter-col">
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- col -->
+                       
 
                         <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                             <div class="counter-col">
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- col -->
+                       
 
                         <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                             <div class="counter-col">
@@ -112,7 +112,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- col -->
+                       
                     </div>
                     <!-- row -->
                 </div>
@@ -227,7 +227,7 @@
         <!-- Service End -->
 
         <!-- Our Skill -->
-        <section class="section skill-section">
+        <!-- <section class="section skill-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -247,27 +247,27 @@
                                 <div class="progress">
                                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="92"
                                         aria-valuemin="0" aria-valuemax="100">
-                                    </div><!-- /progress-bar -->
-                                </div><!-- /progress -->
-                            </div><!-- /progress-lt -->
+                                    </div>
+                                </div>
+                            </div>
                             <div class="progress-lt">
                                 <h6>CSS</h6>
                                 <span>84%</span>
                                 <div class="progress">
                                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="84"
                                         aria-valuemin="0" aria-valuemax="100">
-                                    </div><!-- /progress-bar -->
-                                </div><!-- /progress -->
-                            </div><!-- /progress-lt -->
+                                    </div>
+                                </div>
+                            </div>
                             <div class="progress-lt">
                                 <h6>JavaScript</h6>
                                 <span>88%</span>
                                 <div class="progress">
                                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="88"
                                         aria-valuemin="0" aria-valuemax="100">
-                                    </div><!-- /progress-bar -->
-                                </div><!-- /progress -->
-                            </div><!-- /progress-lt -->
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="progress-lt">
                                 <h6>PHp</h6>
@@ -275,19 +275,19 @@
                                 <div class="progress">
                                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="95"
                                         aria-valuemin="0" aria-valuemax="100">
-                                    </div><!-- /progress-bar -->
-                                </div><!-- /progress -->
-                            </div><!-- /progress-lt -->
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
-                    </div> <!-- col -->
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </section>
+                    </div> 
+                </div> 
+            </div> 
+        </section> -->
         <!-- / -->
 
         <!-- Portfolio Start -->
-        <section id="portfolio" class="section gray-bg">
+        <!-- <section id="portfolio" class="section gray-bg">
             <div class="container">
                 <div class="row justify-content-center m-60px-b md-m-40px-b sm-m-30px-b">
                     <div class="col-12 col-md-10 col-lg-7">
@@ -307,7 +307,7 @@
                         <li data-filter=".website">Website</li>
                         <li data-filter=".apps">Apps</li>
                     </ul>
-                </div> <!-- Portfolio Filter -->
+                </div> 
 
                 <div class="portfolio-content">
                     <ul class="portfolio-cols portfolio-cols-3">
@@ -329,16 +329,16 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
                         <li class="portfolio-item apps">
                             <div class="portfolio-col portfolio-hover-01">
@@ -358,16 +358,16 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
                         <li class="portfolio-item photoshop apps">
                             <div class="portfolio-col portfolio-hover-01">
@@ -387,16 +387,16 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
                         <li class="portfolio-item photoshop website">
                             <div class="portfolio-col portfolio-hover-01">
@@ -416,16 +416,16 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
                         <li class="portfolio-item photoshop apps">
                             <div class="portfolio-col portfolio-hover-01">
@@ -445,16 +445,16 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
                         <li class="portfolio-item app website">
                             <div class="portfolio-col portfolio-hover-01">
@@ -474,23 +474,23 @@
                                             <a href="#" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
-                                        </div> <!-- Video Btn -->
-                                    </div> <!-- Hover -->
+                                        </div> 
+                                    </div> 
                                 </div>
 
                                 <div class="portfolio-info">
                                     <h5>Ryan Portpolio Template</h5>
                                     <span>Resent Work</span>
                                 </div>
-                            </div> <!-- Portfolio -->
-                        </li> <!-- col -->
+                            </div> 
+                        </li> 
 
 
-                    </ul> <!-- row -->
-                </div> <!-- portfolio content -->
-            </div> <!-- Container -->
+                    </ul> 
+                </div> 
+            </div> 
 
-        </section>
+        </section> -->
         <!--  Portfolio End  -->
 
 

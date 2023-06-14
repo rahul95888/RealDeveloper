@@ -1,7 +1,7 @@
  <footer class="footer">
         <div class="container">
             <div class="footer-logo">
-                <span>Ryan <span></span></span>
+                <span>Rahul Soni <span></span></span>
             </div>
             <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -11,7 +11,7 @@
                 <li><a href="#"><i class="fab fa-codepen"></i></a></li>
                 <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
             </ul>
-            <p class="copyright">© 2018 Ryan. All Rights Reserved</p>
+            <p class="copyright">© 2024 Rahul. All Rights Reserved</p>
         </div>
     </footer>
 <!-- SlimScroll -->
