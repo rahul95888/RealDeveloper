@@ -8,7 +8,7 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="{{asset('/assets/images/favicon.png')}}">
+<link rel="shortcut icon" href="{{ asset('/assets/images/favicon.png') }}">
 
 
 <link rel="stylesheet" href="{{ asset('/assets/css/main.css') }}">
@@ -23,20 +23,20 @@
 <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
 
 
- <link href="{{ asset('/assets/static/plugin/font-awesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/static/plugin/themify-icons/themify-icons.css') }}" rel="stylesheet">
-    <!-- / -->
+<link href="{{ asset('/assets/static/plugin/font-awesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/static/plugin/themify-icons/themify-icons.css') }}" rel="stylesheet">
+<!-- / -->
 
-    <!-- Plugin CSS -->
-    <link href="{{ asset('/assets/static/plugin/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/static/plugin/owl-carousel/css/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/static/plugin/magnific/magnific-popup.css') }}" rel="stylesheet">
-    <!-- / -->
+<!-- Plugin CSS -->
+<link href="{{ asset('/assets/static/plugin/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/static/plugin/owl-carousel/css/owl.carousel.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/static/plugin/magnific/magnific-popup.css') }}" rel="stylesheet">
+<!-- / -->
 
-    <!-- Theme Style -->
-    <link href="{{ asset('/assets/static/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/static/css/color/default.css') }}" rel="stylesheet" id="color_theme">
-    <!-- / -->
+<!-- Theme Style -->
+<link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/static/css/color/default.css') }}" rel="stylesheet" id="color_theme">
+<!-- / -->
 
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.ico" />
+<!-- Favicon -->
+<link rel="icon" href="assets/images/favicon.ico" />

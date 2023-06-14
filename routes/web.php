@@ -19,7 +19,7 @@ Route::prefix('admin_login')->group(function () {
 });
 
 
-Route::get('login', 'Auth\Admin\LoginController@login')->name('admin.auth.login');
+Route::get('admin', 'Auth\Admin\LoginController@login')->name('admin.auth.login');
 Route::post('login', 'Auth\Admin\LoginController@loginAdmin')->name('admin.auth.loginAdmin');
 Route::post('logout', 'Auth\Admin\LoginController@logout')->name('admin.auth.logout');
 Route::get('logout', 'Auth\Admin\LoginController@logout');

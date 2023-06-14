@@ -1,72 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('frontend.layouts.master')
+@section('title', 'Real Developer')
+@section('content')
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--
-  ========================================================================
-  EXCLUSIVE ON themeforest.net
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Template Name   : Ryan
-  Author          : mital_04
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Copyright (c) 2018 - mital_04
-  ========================================================================
-  -->
-    <!-- Page Title -->
-    <title>Ryan - Personal Portfolio Template</title>
-    <!-- / -->
 
-    <!---Font Icon-->
-   
-    <!-- / -->
-</head>
 
-<!-- Body Start -->
 
-<body data-spy="scroll" data-target="#navbarRyan" data-offset="98">
-
-    <!-- Loading -->
-    <div id="loading">
-        <div class="load-circle"><span class="one"></span></div>
-    </div>
-    <!-- / -->
-
-    <!-- Header -->
-    <header>
-        <nav class="navbar header-nav fixed-top navbar-expand-lg">
-            <div class="container">
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">Ryan <span class="theme-bg"></span></a>
-                <!-- / -->
-
-                <!-- Mobile Toggle -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRyan"
-                    aria-controls="navbarRyan" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <!-- / -->
-
-                <!-- Top Menu -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#aboutus">About Us</a></li>
-                        <li><a class="nav-link" href="#services">Services</a></li>
-                        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li><a class="nav-link" href="#blog">Blog</a></li>
-                        <li><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- / -->
-
-            </div><!-- Container -->
-        </nav> <!-- Navbar -->
-    </header>
     <!-- Header End -->
 
     <!-- Main Start -->
@@ -383,7 +321,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-1.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-1.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -411,7 +350,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-2.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-2.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -439,7 +379,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-3.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-3.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -467,7 +408,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-4.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-4.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -495,7 +437,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-5.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-5.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -523,7 +466,8 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a class="lightbox-gallery theme-color" href="assets/static/img/portfolio-6.jpg"
+                                            <a class="lightbox-gallery theme-color"
+                                                href="assets/static/img/portfolio-6.jpg"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
@@ -739,16 +683,13 @@
                                 <h2>Say Something</h2>
                                 <form>
                                     <div class="form-group">
-                                        <input name="Phone" placeholder="Name" class="form-control"
-                                            type="text">
+                                        <input name="Phone" placeholder="Name" class="form-control" type="text">
                                     </div>
                                     <div class="form-group">
-                                        <input name="Email" placeholder="Emaile" class="form-control"
-                                            type="email">
+                                        <input name="Email" placeholder="Emaile" class="form-control" type="email">
                                     </div>
                                     <div class="form-group">
-                                        <input name="Subject" placeholder="Subject" class="form-control"
-                                            type="text">
+                                        <input name="Subject" placeholder="Subject" class="form-control" type="text">
                                     </div>
                                     <div class="form-group">
                                         <textarea name="comment" placeholder="Describe your project" rows="3" class="form-control"></textarea>
@@ -772,27 +713,9 @@
     <!-- Main End -->
 
     <!-- Footer-->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-logo">
-                <span>Ryan <span></span></span>
-            </div>
-            <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                <li><a href="#"><i class="fab fa-codepen"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
-            </ul>
-            <p class="copyright">© 2018 Ryan. All Rights Reserved</p>
-        </div>
-    </footer>
+
 
     <!-- jQuery -->
-   
-    
-</body>
-<!-- Body End -->
 
-</html>
+
+@endsection
